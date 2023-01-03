@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2? family=Cinzel&family=Martel&display=swap');
+
+body{
+    height: 100vh;
+    background-color: rgba(22,23,22,255);
+}
+main{
+    /* margin: 0 !important;
+    padding: 0 !important; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(189, 177, 177); 
+    color: rgba(22,23,22,255);
+
+    font-family: "Cinzel, serif";
+    font-size: 1.2rem;
+}
+
+nav{
+    position: fixed;
+}
+
+
+/* =====global========== */
+.container{
+    width: 80vw;
+}
+h1{
+    width: 80vw;
+    margin-top: 1rem;
+}
+h2{
+    font-weight: 600;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #fff;
+}
+p{margin-left: 2rem;
+margin-right: 2rem;
+}
+.whatsapp {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    bottom: 2rem;
+    left: 2rem;
+    border-radius: 50%;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #00bb2d;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .whatsapp:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #01a126;
+  }
+  
+  .whatsapp-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 0.1em;
+  }
+  
+  .boton-contacto {
+    width: 8em;
+    height: 2.7em;
+    padding: 10px;
+    margin-top: 1em;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(22, 23, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* =======pagos========= */
+
+.title{
+    background-color: rgba(22,23,22,255);
+    color: white;
+}
+img{
+    width:100%;
+}
+.img-home{
+    width: 100vw;
+
+}
+
+/* ======SERVICIOS========== */
+
+
+
+.card{
+    background-color:rgb(189, 177, 177) ;
+    border: solid 1px #05020e;
+    margin-bottom: 1rem;
+}
+    .card-img-top{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid hsla(0,0%,50%,.242);
+    }
+    .card-title{
+        font-size: 2rem;
+        /* border-bottom: solid #05020e; */
+    }
+    .text-secondary{
+        color: rgb(106, 61, 110) !important;
+    }
+.btn{
+    background-color: #05020e;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #1e0d52;
+}
+
+/* ===============TESTIMONIOS=========== */
+
+
+
+/* =======FOOTER========= */
+footer {
+    background-color:rgba(22,23,22,255);
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.derechos {
+    margin-left: 5px;
+    margin-right: 2px;
+    color: 	rgb(189, 177, 177) ;
+}
+.terminos-condiciones {
+    margin-bottom:25px;
+    font-size: 12px;
+    color: 	rgb(189, 177, 177) ;
+}
+
+/* =========PAG-TERMINOS============= */
+
+.terminos{
+    height: 100vh;
+}
+
+
+/* ===========MEDIA========== */
+
+@media (min-width: 300px){
+    .card{
+        display: flex;
+    }
+    span{
+        display: none;
+    }
+    .whatsapp {
+        bottom:5rem;
+        left: 1rem;
+    }
+    
+}
+
+
+
+@media (min-width: 1000px){
+    .imagenes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-testimonios{
+        height: 500px;
+        width: 300px;
+    
+        margin-right: 1rem;
+        
+    }
+    .nosotros-contenedor-img{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .img-nosotros{
+        width: 500px;
+        height: 360px;
+        margin-right: 1rem;
+        
+    }
+    p{
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    .section-terminos{
+        height: 80vh;
+    }
+  }
